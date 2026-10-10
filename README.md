@@ -1,16 +1,82 @@
-# React + Vite
+# Community Library Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## About the Project
 
-Currently, two official plugins are available:
+This project is a library management system I created for my
+Web Application Development assignment.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The system helps a community library manage its books, keep track
+of available stock, record transactions, and manage users.
 
-## React Compiler
+I used React to build the application and Local Storage to save
+the information in the browser.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Main Features
 
-## Expanding the ESLint configuration
+### Dashboard
+- Shows the total number of books.
+- Shows the total quantity of books available.
+- Shows books with low stock.
+- Shows the total number of users.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Books
+- Add new books.
+- Update book information.
+- Delete books.
+- View book quantities and availability.
+- Check for duplicate ISBN numbers.
+
+### Transactions
+- Record borrowed books.
+- Add stock when new books arrive.
+- View transaction history.
+- Prevent borrowing more books than are available.
+
+### Users
+- Add new users.
+- Update and delete users.
+- Assign roles to users.
+- Log in using a membership ID and role.
+- Check for duplicate membership IDs.
+
+## Technologies Used
+
+- React
+- JavaScript
+- HTML
+- CSS
+- React Router
+- Local Storage
+- Vite
+
+## How to Run the Project
+
+First, install Node.js on your computer.
+
+Open the project folder in a terminal and run:
+
+    npm install
+
+After installation, start the application:
+
+    npm run dev
+
+Open the local address shown in the terminal to use the system.
+
+To create a production build, run:
+
+    npm run build
+
+## Data Storage
+
+The system saves books, users, and transaction records in the
+browser's Local Storage. This allows the information to remain
+saved when the page is refreshed.
+
+## Student Details
+
+Name: Mpho Selefo
+
+Course: BSCSM
+
+Module: Web Application Development (BIWA2110)
