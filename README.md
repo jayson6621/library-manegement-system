@@ -1,6 +1,6 @@
 # Community Library Management System
 
-## About the Project
+## About Project
 
 This project is a library management system I created for my
 Web Application Development assignment.
@@ -11,7 +11,7 @@ of available stock, record transactions, and manage users.
 I used React to build the application and Local Storage to save
 the information in the browser.
 
-## Main Features
+## Features
 
 ### Dashboard
 - Shows the total number of books.
@@ -73,10 +73,10 @@ The system saves books, users, and transaction records in the
 browser's Local Storage. This allows the information to remain
 saved when the page is refreshed.
 
-## Student Details
+## my Details
 
 Name: Mpho Selefo
 
 Course: BSCSM
 
-Module: Web Application Development (BIWA2110)
+Module: Web Development
